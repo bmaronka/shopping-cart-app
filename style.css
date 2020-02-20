@@ -1,0 +1,22 @@
+div {
+    line-height: 50px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+button {
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:disabled {
+    opacity: 0.3;
+}
